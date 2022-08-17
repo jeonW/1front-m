@@ -1,0 +1,113 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+body {
+        background-color:hsl(158, 36%, 37%);
+        background-color:hsl(30, 38%, 92%);}
+.parent {
+  width:600px; height:450px;
+  border:1px solid noen;
+  margin:0 auto;
+  padding: 100px;
+}
+.rightdiv * {
+padding: 28px 30px 0px 30px;
+margin:1px 0px 1px 0px;
+flex: 1 0 50%;  /* flex-grow, flex-shrink, flex-basis */
+}
+.leftdiv {
+  width: 298px; height: 448px;
+  border:1px solid none;
+  border-radius: 10px 0px 0px 10px;
+  float: left;
+  padding:0 auto;
+  margin:0 auto;
+}
+.rightdiv{
+  width: 298px;height:448px;
+  background-color: White;
+  float:left;
+  border: 1px solid none;
+  border-radius: 0px 10px 10px 0px;
+
+}
+img{
+  max-width : 100%;
+  max-height: 100%;
+  height:448px;
+  border-radius: 8px 0px 0px 8px;
+}
+.name {
+  color: hsl(228, 12%, 48%);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+
+}
+.darkcyan{
+  color:hsl(212, 21%, 14%);
+  font-family: 'Fraunces', serif;
+  font-size:2em;
+  width: fit-content;
+  line-height: 30px;
+
+}
+.transparentgray {
+  color:hsl(228, 12%, 48%);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  width: auto;
+
+}
+#dollor{
+  padding-bottom: 28px;
+
+}
+.b-dollor {
+  color:rgb(82, 138, 124);
+  font-family: 'Fraunces', serif;
+  font-size: 2em;
+  padding-left: 0px;
+  padding-right:15px
+}
+.s-dollor {
+  color:hsl(228, 12%, 48%);
+  text-decoration: line-through;
+  font-size: 14px;
+  padding-left: 0px;
+  padding-bottom: 28px;
+  vertical-align: super;
+
+}
+.greenbox{  
+  border-radius:5px;
+  border:none;
+  outline: 0;
+  color: white;
+  background-color:rgb(82, 138, 124);
+  text-align: center;
+  cursor: pointer;
+  font-size: 14px;
+  padding:14px 55px 14px 55px;
+  margin:1px 30px 1px 30px;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  
+}
+.icon{
+    padding:0px 10px 0px 0px ;
+    vertical-align: text-top;
+}
+    
+
+@media only screen and (max-device-width: 375px){
+    .parent {
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+        "rightdiv"
+        "leftdiv";
+        box-shadow:"30px";
+        margin:5%;
+    }
+}
